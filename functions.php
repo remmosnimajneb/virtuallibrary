@@ -13,8 +13,7 @@
 */
 
 //MySQL Connection
-//$con = new PDO("mysql:host=[DB_HOST];dbname=[DB_NAME]", "[DB_USERNAME]", "[DB_PASSWORD]");
-$con = new PDO("mysql:host=localhost;dbname=virtuallib", "root", "");
+$con = new PDO("mysql:host=[DB_HOST];dbname=[DB_NAME]", "[DB_USERNAME]", "[DB_PASSWORD]");
 
 //Admin Panel Login
 $adminUsername = "virtuallib";
